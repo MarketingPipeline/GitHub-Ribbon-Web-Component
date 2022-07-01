@@ -2,7 +2,7 @@
 
 
 <p align="right">
-<a href="https://github.com/1j01/pipes" class="ui-container"
+<a href="https://github.com/MarketingPipeline/Fork-Me.js" class="ui-container"
       ><img
         class="fork-me"
         style="position: absolute; top: 0; right: 0; border: 0;"
@@ -16,11 +16,11 @@
   <br>
   <small> <b><i>Show your support!</i> </b></small>
   <br>
-   <a href="https://github.com/MarketingPipeline/Markdown-Tag">
-    <img title="Star on GitHub" src="https://img.shields.io/github/stars/MarketingPipeline/Markdown-Tag.svg?style=social&label=Star">
+   <a href="https://github.com/MarketingPipeline/Fork-Me.js">
+    <img title="Star on GitHub" src="https://img.shields.io/github/stars/MarketingPipeline/Fork-Me.js.svg?style=social&label=Star">
   </a>
-  <a href="https://github.com/MarketingPipeline/Markdown-Tag/fork">
-    <img title="Fork on GitHub" src="https://img.shields.io/github/forks/MarketingPipeline/Markdown-Tag.svg?style=social&label=Fork">
+  <a href="https://github.com/MarketingPipeline/Fork-Me.js/fork">
+    <img title="Fork on GitHub" src="https://img.shields.io/github/forks/MarketingPipeline/Fork-Me.js.svg?style=social&label=Fork">
   </a>
    </p>  
 
