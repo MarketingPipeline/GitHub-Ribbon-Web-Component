@@ -14,20 +14,73 @@
   <b>Wrap any page with a Fork Me On Github button!</b>
   </p>
 
+
+
+##                               Example                                                        and                      Usage
+
 ```html
-<fork-me repo-link="MarketingPipeline/Github"></fork-me>
+<fork-me link="https://github.com/MarketingPipeline/Fork-Me.js/"></fork-me>
 ```
 
-## Options
+###                                                                                                                    Options
 
-link= link
 
-message = message
+<table>
+<tr>
+<th>Attribute</th>
+<th>Meaning</th>
+<th>Default</th>
+<th>Required</th>
+</tr>
+<tr>
+<td>link</td>
+<td>The      link                                                               to your GitHub  repo / source code etc...</td>
+<td><code>undefined</code></td>
+<td>Yes</td>
+</tr>
 
-color = color
 
-Side = "left" or right"
+<tr>
+<td>side</td>
+              <td>Change the side of the ribbon, options are <code>top-left, top-right, bottom-right, bottom-left </code></td>
+<td><code>top-right</code></td>
+<td>No</td>
+</tr>
 
-new-window = open link in window
+<tr>
+<td>message</td>
+<td>Set                            your                     own      custom message instead   of  "Fork  me  on  GitHub" </td>
+<td><code>undefined</code></td>
+<td>No</td>
+</tr>
+
+
+<tr>
+<td>color</td>
+<td>Change          the                                                      color             of the ribbon  background </td>
+<td><code>red</code></td>
+<td>No</td>
+</tr>
+
+
+
+<tr>
+<td>text-color</td>
+<td>Change  the   text                                    color                             of  the                ribbon</td>
+<td><code>#fff</code></td>
+<td>No</td>
+</tr>
+
+
+
+<tr>
+<td>new-window</td>
+<td>If                    <code>True</code>                     on          link click,      open    new           window</td>
+<td><code>False</code></td>
+<td>No</td>
+<tr>
+</tr>
+</table>
+
 
 
