@@ -6,6 +6,7 @@ class fork_me_wrapper extends HTMLElement {
     this.side = this.getAttribute("side");
     this.message = this.getAttribute("message");
     this.color = this.getAttribute("color");
+    this.text_color = this.getAttribute("text-color");
     
   }
 
@@ -71,7 +72,15 @@ class fork_me_wrapper extends HTMLElement {
       Color = Color
     }
     
-    
+    var Text_Color = this.text_color
+    if (Text_Color == undefined){
+      
+      Text_Color= "#fff"
+    } else {
+      
+      Text_Color = Text_Color
+      
+    }
     var Style = `<style>
   .github-fork-ribbon {
   width: 12.1em;
@@ -146,7 +155,7 @@ class fork_me_wrapper extends HTMLElement {
   content: attr(data-ribbon);
 
   /* Set the text properties */
-  color: #fff;
+  color: ${Text_Color};
   font: 700 1em "Helvetica Neue", Helvetica, Arial, sans-serif;
   line-height: 1.54em;
   text-decoration: none;
