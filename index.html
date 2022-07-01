@@ -1,6 +1,4 @@
-<head>
-	
-</head>	
+<html><head>
 
 <style>
   html, body {
@@ -15,9 +13,7 @@ body {
     display: table-cell;
     vertical-align: middle;
 }
-github-md pre {
-  display:none;
-}
+
 
 github-md table {
     border-spacing: 2px;
@@ -29,86 +25,103 @@ github-md table {
     border-spacing: 0;
     border-collapse: collapse;
 }
-</style>
-<github-md>
+</style><link type="text/css" rel="stylesheet" href="https://cdn.jsdelivr.net/gh/MarketingPipeline/Markdown-Elements/stylesheets/github_md.css"></head>	
+
+
+<body><github-md><div align="center"><h1>Fork-Me.js</h1></div>
+<p>Easily add a GitHub Fork Me button to any page!</p>
  
-  <div align="center"><h1>Fork-Me.js</h1></div>
-  
-  Easily add a GitHub Fork Me button to any page!
   
   
 
-  
-## Example and Usage
+
+## Example and usage
+
+You can view a demo of Fork-Me.js in use [here.](https://marketingpipeline.github.io/Fork-Me.js)
+
+
+How to use <b><i>Fork-Me.js</b></i>:
+
+
+
+```html
+<fork-me link="https://github.com/MarketingPipeline/Fork-Me.js/"></fork-me>
+```
+
+
+
+
+   include this [script](https://github.com/MarketingPipeline/Fork-Me.js/blob/main/fork-me.js) at the <b>bottom</b> of your HTML document.
+    
 
   
-&lt;fork-me>  link="https://github.com/MarketingPipeline/Fork-Me.js"&lt;/fork-me>  
- 
-### Options
-  
- 
+
+<pre>&lt;script src="https://cdn.jsdelivr.net/gh/MarketingPipeline/Fork-Me.js/fork-me.js">&lt;/script&gt;</pre>
+
+
+###                                                                                                                    Options
+
+
 <table>
-            <tr>
-              <th>Attribute</th>
-              <th>Meaning</th>
-              <th>Default</th>
-	      <th>Required</th>	    
-            </tr>
-            <tr>
-              <td>link</td>
-              <td>The link to your GitHub repo / source code etc...</td>
-              <td><code>undefined</code></td>
-	      <td>Yes</td>
-		      </tr> 
-	
-	
-	 	  <tr>  
-	       <td>side</td>
-              <td>Change the side of the ribbon, options are <code>top-left, top-right, bottom-right, bottom-left </code></td>
-              <td><code>top-right</code></td>
-	      <td>No</td>    
-		      </tr> 
-	
-		  <tr>  
-	       <td>message</td>
-              <td>Set your own custom message instead of "Fork me on GitHub" </td>
-              <td><code>undefined</code></td>
-	      <td>No</td>    
-		      </tr> 
-	
-	
-	      <tr>  
-	       <td>color</td>
-              <td>Change the color of the ribbon background </td>
-              <td><code>red</code></td>
-	      <td>No</td>    
-		      </tr> 
-	
-	
-	
-	  <tr>  
-	       <td>text-color</td>
-              <td>Change the text color of the ribbon</td>
-              <td><code>#fff</code></td>
-	      <td>No</td>    
-		      </tr> 
+<tr>
+<th>Attribute</th>
+<th>Meaning</th>
+<th>Default</th>
+<th>Required</th>
+</tr>
+<tr>
+<td>link</td>
+<td>The      link                                                               to your GitHub  repo / source code etc...</td>
+<td><code>undefined</code></td>
+<td>Yes</td>
+</tr>
 
-		
-	
-		   <tr>
-	       <td>new-window</td>
-			   <td>If <code>True</code> on link click, open new window</td>
-              <td><code>False</code></td>
-	      <td>No</td>    	 	    
-		    <tr>
-            </tr>         
-	</table>         	
-	
- 
-# Cool Fact!
+
+<tr>
+<td>side</td>
+              <td>Change the side of the ribbon, options are <code>top-left, top-right, bottom-right, bottom-left </code></td>
+<td><code>top-right</code></td>
+<td>No</td>
+</tr>
+
+<tr>
+<td>message</td>
+<td>Set                            your                     own      custom message instead   of  "Fork  me  on  GitHub" </td>
+<td><code>undefined</code></td>
+<td>No</td>
+</tr>
+
+
+<tr>
+<td>color</td>
+<td>Change          the                                                      color             of the ribbon  background </td>
+<td><code>red</code></td>
+<td>No</td>
+</tr>
+
+
+
+<tr>
+<td>text-color</td>
+<td>Change  the   text                                    color                             of  the                ribbon</td>
+<td><code>#fff</code></td>
+<td>No</td>
+</tr>
+
+
+
+<tr>
+<td>new-window</td>
+<td>If                    <code>True</code>                     on          link click,      open    new           window</td>
+<td><code>False</code></td>
+<td>No</td>
+<tr>
+</tr>
+</table>
+
   
- This index page was wrote in Markdown using [Markdown Tag](https://github.com/MarketingPipeline/Markdown-Tag) - check it out if you want to easily add Markdown support to any of your web pages using as simple &lt;md> tag! 
-</github-md>
+<h1 id="coolfact">Cool Fact!</h1>
+<p>This index page was wrote in Markdown using <a href="https://github.com/MarketingPipeline/Markdown-Tag">Markdown Tag</a> - check it out if you want to easily add Markdown support to any of your web pages using as simple &lt;md&gt; tag! </p></github-md>
      
   
   
@@ -116,13 +129,14 @@ github-md table {
     <fork-me link="top-right" message="Custom Message" side="top-left"></fork-me>
   
     <fork-me link="top-right" side="top-right"></fork-me>
-       <fork-me link="top-right" message="Open in new window"  side="bottom-left"></fork-me>
+       <fork-me link="top-right" message="Open in new window" side="bottom-left"></fork-me>
          
-            <fork-me link="top-right" message="Color Options!" side="bottom-right"  color="blue" text-color="pink">
+            <fork-me link="top-right" message="Color Options!" side="bottom-right" color="blue" text-color="pink">
          
          
     </fork-me>
-
+  
    <!--- Include Script At Bottom Of Page ---> 
 <script src="https://cdn.jsdelivr.net/gh/MarketingPipeline/Fork-Me.js/fork-me.js"></script> 
    <script src="https://cdn.jsdelivr.net/gh/MarketingPipeline/Markdown-Tag/markdown-tag-GitHub.js"></script> 
+</body></html>
