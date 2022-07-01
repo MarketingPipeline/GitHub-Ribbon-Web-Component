@@ -11,7 +11,7 @@
         data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_white_ffffff.png"
     /></a> </p>
     <p align="center">
-  <b>Wrap any page with a Fork Me On Github button!</b>
+  <b>Easily add a GitHub Fork Me button to any page!</b>
 
   <br>
   <small> <b><i>Show your support!</i> </b></small>
@@ -25,6 +25,7 @@
    </p>  
 
 
+A custom web element to easily add a GitHub Fork Me button to your web page!
 
 
 ## Example and usage
@@ -130,3 +131,16 @@ How to use <b><i>Fork-Me.js</b></i>:
 
 
 
+## Contributing ![GitHub](https://img.shields.io/github/contributors/MarketingPipeline/Fork-Me.js)
+
+Want to improve this? Create a pull request with detailed changes / improvements! If approved you will be added to the list of contributors of this awesome project!
+
+See also the list of
+[contributors](https://github.com/MarketingPipeline/Markdown-Tag/graphs/contributors) who
+participate in this project.
+
+## License ![GitHub](https://img.shields.io/github/license/MarketingPipeline/Fork-Me.js)
+
+This project is licensed under the GPL-3.0 License - see the
+[LICENSE.md](https://github.com/MarketingPipeline/Fork-Me.js/blob/main/LICENSE) file for
+details.
