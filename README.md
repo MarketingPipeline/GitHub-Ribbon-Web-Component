@@ -109,6 +109,17 @@ How to use <b><i>Fork-Me.js</b></i>:
 <td>No</td>
 <tr>
 </tr>
+
+
+
+<tr>
+<td>fixed</td>
+<td>If <code>False</code>  non fixed CSS will be applied</td>
+<td><code>True</code></td>
+<td>No</td>
+<tr>
+</tr>
+
 </table>
 
 
