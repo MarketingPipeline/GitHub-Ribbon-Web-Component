@@ -1,13 +1,12 @@
-class Repository extends HTMLElement {
+class fork_me_wrapper extends HTMLElement {
   constructor() {
     super();
-
-    this.repoDetails = null;
 
     this.link= this.getAttribute("link");
     this.side = this.getAttribute("side");
     this.message = this.getAttribute("message");
     this.color = this.getAttribute("color");
+    
   }
 
   async connectedCallback() {
@@ -240,6 +239,13 @@ class Repository extends HTMLElement {
     
     
     
+      var OpenInNewWindow = this.getAttribute("new-window")
+        if (OpenInNewWindow == "True"){
+           var TargetBlank = `target="_blank"`
+         
+       } else {
+          var TargetBlank = ``
+       }  
     
     
      var Ribbon = ` 
@@ -247,7 +253,7 @@ class Repository extends HTMLElement {
    
    <div class="github-fork-ribbon-wrapper ${Side}">
         <div class="github-fork-ribbon">
-            <a href="${Link}">${Message}</a>
+            <a href="${Link}" ${TargetBlank}>${Message}</a>
         </div>
     </div>`
     
@@ -260,4 +266,4 @@ class Repository extends HTMLElement {
   }
 }
 
-window.customElements.define("github-repo", Repository);
+window.customElements.define("fork-me", fork_me_wrapper);
