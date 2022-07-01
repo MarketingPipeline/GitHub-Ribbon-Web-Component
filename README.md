@@ -86,7 +86,7 @@ How to use <b><i>Fork-Me.js</b></i>:
 
 <tr>
 <td>color</td>
-<td>Change          the                                                      color             of the ribbon  background </td>
+<td>Change the   color  of the ribbon  background </td>
 <td><code>red</code></td>
 <td>No</td>
 </tr>
@@ -95,7 +95,7 @@ How to use <b><i>Fork-Me.js</b></i>:
 
 <tr>
 <td>text-color</td>
-<td>Change  the   text                                    color                             of  the                ribbon</td>
+<td>Change  the   text  color of the ribbon</td>
 <td><code>#fff</code></td>
 <td>No</td>
 </tr>
@@ -104,21 +104,27 @@ How to use <b><i>Fork-Me.js</b></i>:
 
 <tr>
 <td>new-window</td>
-<td>If                    <code>True</code>                     on          link click,      open    new           window</td>
+<td>If                    <code>True</code>, link with  open in a new window</td>
 <td><code>False</code></td>
 <td>No</td>
-<tr>
 </tr>
 
-
-
+     
+      
+  
 <tr>
 <td>fixed</td>
 <td>If <code>False</code>  non fixed CSS will be applied</td>
 <td><code>True</code></td>
 <td>No</td>
-<tr>
 </tr>
+    
+      
+      
+ 
+
+
+
 
 </table>
 
