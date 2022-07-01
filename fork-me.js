@@ -73,138 +73,125 @@ class fork_me_wrapper extends HTMLElement {
     
     
     var Style = `<style>
-   /* Left will inherit from right (so we don't need to duplicate code */
-.github-fork-ribbon {
-  /* The right and left lasses determine the side we attach our banner to */
-  position: absolute;
-
-  /* Add a bit of padding to give some substance outside the "stitching" */
-  padding: 2px 0;
-
-  /* Set the base colour */
-  background-color: ${Color};
-
-  /* Set a gradient: transparent black at the top to almost-transparent black at the bottom */
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.00)), to(rgba(0, 0, 0, 0.15)));
-  background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.00), rgba(0, 0, 0, 0.15));
-  background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.00), rgba(0, 0, 0, 0.15));
-  background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0.00), rgba(0, 0, 0, 0.15));
-  background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0.00), rgba(0, 0, 0, 0.15));
-  background-image: linear-gradient(top, rgba(0, 0, 0, 0.00), rgba(0, 0, 0, 0.15));
-  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#000000', EndColorStr='#000000');
-
-  /* Add a drop shadow */
-  -webkit-box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.5);
-  box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.5);
-
-  z-index: 9999;
-}
-
-.github-fork-ribbon a,
-.github-fork-ribbon a:hover {
-  /* Set the font */
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 13px;
-  font-weight: 700;
-  color: white;
-
-  /* Set the text properties */
-  text-decoration: none;
-  text-shadow: 0 -1px rgba(0,0,0,0.5);
-  text-align: center;
-
-  /* Set the geometry. If you fiddle with these you'll also need to tweak the top and right values in #github-fork-ribbon. */
-  width: 200px;
-  line-height: 20px;
-
-  /* Set the layout properties */
-  display: inline-block;
-  padding: 2px 0;
-
-  /* Add "stitching" effect */
-  border-width: 1px 0;
-  border-style: dotted;
-  border-color: rgba(255,255,255,0.7);
-}
-
-.github-fork-ribbon-wrapper {
-  width: 150px;
-  height: 150px;
+  .github-fork-ribbon {
+  width: 12.1em;
+  height: 12.1em;
   position: absolute;
   overflow: hidden;
   top: 0;
+  right: 0;
   z-index: 9999;
+  pointer-events: none;
+  font-size: 13px;
+  text-decoration: none;
+  text-indent: -999999px;
 }
 
-.github-fork-ribbon-wrapper.fixed {
+.github-fork-ribbon.fixed {
   position: fixed;
 }
 
-.github-fork-ribbon-wrapper.left {
-  left: 0;
+.github-fork-ribbon:hover, .github-fork-ribbon:active {
+  background-color: rgba(0, 0, 0, 0.0);
 }
 
-.github-fork-ribbon-wrapper.right {
-  right: 0;
-}
+.github-fork-ribbon:before, .github-fork-ribbon:after {
+  /* The right and left classes determine the side we attach our banner to */
+  position: absolute;
+  display: block;
+  width: 15.38em;
+  height: 1.54em;
 
-.github-fork-ribbon-wrapper.left-bottom {
-  position: fixed;
-  top: inherit;
-  bottom: 0;
-  left: 0;
-}
+  top: 3.23em;
+  right: -3.23em;
 
-.github-fork-ribbon-wrapper.right-bottom {
-  position: fixed;
-  top: inherit;
-  bottom: 0;
-  right: 0;
-}
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
 
-.github-fork-ribbon-wrapper.right .github-fork-ribbon {
-  top: 42px;
-  right: -43px;
-
-  /* Rotate the banner 45 degrees */
   -webkit-transform: rotate(45deg);
   -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
   -o-transform: rotate(45deg);
   transform: rotate(45deg);
 }
 
-.github-fork-ribbon-wrapper.left .github-fork-ribbon {
-  top: 42px;
-  left: -43px;
+.github-fork-ribbon:before {
+  content: "";
 
-  /* Rotate the banner -45 degrees */
+  /* Add a bit of padding to give some substance outside the "stitching" */
+  padding: .38em 0;
+
+  /* Set the base colour */
+  background-color:${Color};
+
+  /* Set a gradient: transparent black at the top to almost-transparent black at the bottom */
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.15)));
+  background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15));
+  background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15));
+  background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15));
+  background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15));
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15));
+
+  /* Add a drop shadow */
+  -webkit-box-shadow: 0 .15em .23em 0 rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 .15em .23em 0 rgba(0, 0, 0, 0.5);
+  box-shadow: 0 .15em .23em 0 rgba(0, 0, 0, 0.5);
+
+  pointer-events: auto;
+}
+
+.github-fork-ribbon:after {
+  /* Set the text from the data-ribbon attribute */
+  content: attr(data-ribbon);
+
+  /* Set the text properties */
+  color: #fff;
+  font: 700 1em "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1.54em;
+  text-decoration: none;
+  text-shadow: 0 -.08em rgba(0, 0, 0, 0.5);
+  text-align: center;
+  text-indent: 0;
+
+  /* Set the layout properties */
+  padding: .15em 0;
+  margin: .15em 0;
+
+  /* Add "stitching" effect */
+  border-width: .08em 0;
+  border-style: dotted;
+  border-color: #fff;
+  border-color: rgba(255, 255, 255, 0.7);
+}
+
+.github-fork-ribbon.left-top, .github-fork-ribbon.left-bottom {
+  right: auto;
+  left: 0;
+}
+
+.github-fork-ribbon.left-bottom, .github-fork-ribbon.right-bottom {
+  top: auto;
+  bottom: 0;
+}
+
+.github-fork-ribbon.left-top:before, .github-fork-ribbon.left-top:after, .github-fork-ribbon.left-bottom:before, .github-fork-ribbon.left-bottom:after {
+  right: auto;
+  left: -3.23em;
+}
+
+.github-fork-ribbon.left-bottom:before, .github-fork-ribbon.left-bottom:after, .github-fork-ribbon.right-bottom:before, .github-fork-ribbon.right-bottom:after {
+  top: auto;
+  bottom: 3.23em;
+}
+
+.github-fork-ribbon.left-top:before, .github-fork-ribbon.left-top:after, .github-fork-ribbon.right-bottom:before, .github-fork-ribbon.right-bottom:after {
   -webkit-transform: rotate(-45deg);
   -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
   -o-transform: rotate(-45deg);
   transform: rotate(-45deg);
 }
-
-
-.github-fork-ribbon-wrapper.left-bottom .github-fork-ribbon {
-  top: 80px;
-  left: -43px;
-
-  /* Rotate the banner -45 degrees */
-  -webkit-transform: rotate(45deg);
-  -moz-transform: rotate(45deg);
-  -o-transform: rotate(45deg);
-  transform: rotate(45deg);
-}
-
-.github-fork-ribbon-wrapper.right-bottom .github-fork-ribbon {
-  top: 80px;
-  right: -43px;
-
-  /* Rotate the banner -45 degrees */
-  -webkit-transform: rotate(-45deg);
-  -moz-transform: rotate(-45deg);
-  -o-transform: rotate(-45deg);
-  transform: rotate(-45deg);
 }</style>`
     
     if (Side == undefined || Side == ""){
@@ -215,24 +202,24 @@ class fork_me_wrapper extends HTMLElement {
     
      if (Side == "top-right"){
        <!-- TOP RIGHT RIBBON: START COPYING HERE -->
-    Side = `  right`
+    Side = `  right-top`
       
     }
        if (Side == "top-left"){
        <!-- TOP RIGHT RIBBON: START COPYING HERE -->
-    Side = `  left`
+    Side = `  left-top`
       
     }
     
         if (Side == "bottom-right"){
        <!-- TOP RIGHT RIBBON: START COPYING HERE -->
-    Side = `  right-bottom`
+    Side = `  right-bottom fixed`
       
     }
     
       if (Side == "bottom-left"){
        <!-- TOP RIGHT RIBBON: START COPYING HERE -->
-    Side = `  left-bottom`
+    Side = `  left-bottom fixed`
       
     }
     
@@ -250,12 +237,8 @@ class fork_me_wrapper extends HTMLElement {
     
      var Ribbon = ` 
    
-   
-   <div class="github-fork-ribbon-wrapper ${Side}">
-        <div class="github-fork-ribbon">
-            <a href="${Link}" ${TargetBlank}>${Message}</a>
-        </div>
-    </div>`
+   <a class="github-fork-ribbon ${Side}" href="${Link}" ${TargetBlank} data-ribbon="${Message}" title="${Message}">${Message}</a>
+   `
     
     return `
     ${Style} 
