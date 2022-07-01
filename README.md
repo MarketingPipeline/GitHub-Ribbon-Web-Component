@@ -43,9 +43,9 @@ How to use <b><i>Fork-Me.js</b></i>:
 
 
 
-   include this [script](https://github.com/MarketingPipeline/Fork-Me.js/blob/main/Fork-Me.js) at the <b>bottom</b> of your HTML document.
+   include this [script](https://github.com/MarketingPipeline/Fork-Me.js/blob/main/fork-me.js) at the <b>bottom</b> of your HTML document.
          
-    <script src="https://cdn.jsdelivr.net/gh/MarketingPipeline/Fork-Me.js/Fork-Me.js"></script> 
+    <script src="https://cdn.jsdelivr.net/gh/MarketingPipeline/Fork-Me.js/fork-me.js"></script> 
 
 
 
