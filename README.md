@@ -20,12 +20,16 @@
 
 ## Options
 
+link= link
+
+message = message
+
+color = color
+
 Side = "left" or right"
 
+new-window = open link in window
 
-# To do 
-
-text-color="blue" color="white" (add options via CSS or Images for colors)
 
 
 Other resources - 
