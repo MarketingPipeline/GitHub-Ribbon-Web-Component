@@ -4,6 +4,7 @@ class fork_me_wrapper extends HTMLElement {
 
     this.link= this.getAttribute("link");
     this.side = this.getAttribute("side");
+    this.fixed = this.getAttribute("fixed");
     this.message = this.getAttribute("message");
     this.color = this.getAttribute("color");
     this.text_color = this.getAttribute("text-color");
@@ -222,16 +223,28 @@ class fork_me_wrapper extends HTMLElement {
     
         if (Side == "bottom-right"){
        <!-- TOP RIGHT RIBBON: START COPYING HERE -->
-    Side = `  right-bottom fixed`
+    Side = `  right-bottom`
       
     }
     
       if (Side == "bottom-left"){
        <!-- TOP RIGHT RIBBON: START COPYING HERE -->
-    Side = `  left-bottom fixed`
+    Side = `  left-bottom`
       
     }
     
+    var Fixed = this.fixed
+      if (Fixed == undefined || Fixed == ""){
+       <!-- TOP RIGHT RIBBON: START COPYING HERE -->
+    Fixed = `  fixed`
+      
+      }
+    
+       if (Fixed == "False"){
+       <!-- TOP RIGHT RIBBON: START COPYING HERE -->
+    Fixed = ``
+      
+      }
     
     
     
@@ -246,7 +259,7 @@ class fork_me_wrapper extends HTMLElement {
     
      var Ribbon = ` 
    
-   <a class="github-fork-ribbon ${Side}" href="${Link}" ${TargetBlank} data-ribbon="${Message}" title="${Message}">${Message}</a>
+   <a class="github-fork-ribbon ${Side} ${Fixed}" href="${Link}" ${TargetBlank} data-ribbon="${Message}" title="${Message}">${Message}</a>
    `
     
     return `
