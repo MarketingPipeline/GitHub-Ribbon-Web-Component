@@ -1,4 +1,4 @@
-# Fork-Me-On-Github-Button
+# Fork-Me.js
 
 
 <p align="right">
@@ -31,12 +31,3 @@ Side = "left" or right"
 new-window = open link in window
 
 
-
-Other resources - 
-
-[Fork me on GitHub CSS Ribbon](https://simonwhitaker.github.io/github-fork-ribbon-css/) 
-
-[CSS Ribbon Builder](https://www.kirilv.com/fork-ribbon-css-builder/) 
-
-[GitHub Ribbons | The GitHub Blog](https://github.blog/2008-12-19-github-ribbons/) 
- 
