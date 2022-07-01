@@ -12,15 +12,44 @@
     /></a> </p>
     <p align="center">
   <b>Wrap any page with a Fork Me On Github button!</b>
-  </p>
+
+  <br>
+  <small> <b><i>Show your support!</i> </b></small>
+  <br>
+   <a href="https://github.com/MarketingPipeline/Markdown-Tag">
+    <img title="Star on GitHub" src="https://img.shields.io/github/stars/MarketingPipeline/Markdown-Tag.svg?style=social&label=Star">
+  </a>
+  <a href="https://github.com/MarketingPipeline/Markdown-Tag/fork">
+    <img title="Fork on GitHub" src="https://img.shields.io/github/forks/MarketingPipeline/Markdown-Tag.svg?style=social&label=Fork">
+  </a>
+   </p>  
 
 
 
-##                               Example                                                        and                      Usage
+
+## Example and usage
+
+You can view a demo of Fork-Me.js in use [here.](https://marketingpipeline.github.io/Fork-Me.js)
+
+
+How to use <b><i>Fork-Me.js</b></i>:
+
+
 
 ```html
 <fork-me link="https://github.com/MarketingPipeline/Fork-Me.js/"></fork-me>
 ```
+
+
+
+
+   include this [script](https://github.com/MarketingPipeline/Fork-Me.js/blob/main/Fork-Me.js) at the <b>bottom</b> of your HTML document.
+         
+    <script src="https://cdn.jsdelivr.net/gh/MarketingPipeline/Fork-Me.js/Fork-Me.js"></script> 
+
+
+
+
 
 ###                                                                                                                    Options
 
