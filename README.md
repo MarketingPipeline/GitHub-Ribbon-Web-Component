@@ -25,7 +25,7 @@
    </p>  
 
 
-A custom web element to easily add a GitHub Fork Me button to your web page!
+A custom web element to easily add a GitHub Fork Me button to your web pages!
 
 
 ## Example and usage
