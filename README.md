@@ -30,7 +30,7 @@ A custom web element to easily add a GitHub Fork Me ribbon to your web pages!
 
 ## Example and usage
 
-You can view a demo of Fork-Me.js in use [here.](https://marketingpipeline.github.io/Fork-Me.js)
+You can view a demo of Fork-Me.js in use [here.](https://marketingpipeline.github.io/Fork-Me.min.js)
 
 
 How to use <b><i>Fork-Me.js</b></i>:
