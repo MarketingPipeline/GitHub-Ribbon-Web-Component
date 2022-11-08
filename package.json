@@ -1,0 +1,12 @@
+{
+  "name": "@MarketingPipeline/GitHub-Ribbon-Web-Component",
+  "description": "A custom web element to easily add a GitHub Fork Me ribbon to your web pages!",
+  "version": "1.0.0",
+  "homepage": "https://github.com/MarketingPipeline/GitHub-Ribbon-Component",
+  "license": "GPL-3.0",
+  "main": "./dist/github-ribbon-wc.min.js",
+  "author": {
+    "name": "MarketingPipeline",
+    "url": "https://github.com/MarketingPipeline"
+  }
+}
