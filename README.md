@@ -30,12 +30,13 @@ A custom web element to easily add a GitHub Fork Me ribbon to your web pages!
 
 ## Example and usage
 
-You can view a demo of the Web Component in use [here.](https://marketingpipeline.github.io/GitHub-Ribbon-Web-Component)
+You can view a demo of this Web Component in use [here.](https://marketingpipeline.github.io/GitHub-Ribbon-Web-Component)
 
 
-<b><i>How to use</b></i>:
+How to use <b><i>GitHub Ribbon Web Component</b></i>:
 
 
+Add a ```github-ribbon``` element in your HTML document with your link etc like the example below -
 
 ```html
 <github-ribbon link="https://github.com/MarketingPipeline/GitHub-Ribbon-Web-Component/"></github-ribbon>
@@ -44,9 +45,9 @@ You can view a demo of the Web Component in use [here.](https://marketingpipelin
 
 
 
-   include this [script](https://github.com/MarketingPipeline/GitHub-Ribbon-Web-Component/blob/main/dist/github-ribbon-wc.min.js) at the <b>bottom</b> of your HTML document.
+   include this [script](https://github.com/MarketingPipeline/GitHub-Ribbon-Web-Component/blob/main/dist/github-ribbon-wc.min.js) in your HTML document.
          
-    <script src="https://cdn.jsdelivr.net/gh/MarketingPipeline/GitHub-Ribbon-Web-Component/dist/github-ribbon-wc.min.js"></script> 
+    <script src="https://cdn.jsdelivr.net/gh/MarketingPipeline/GitHub-Ribbon-Web-Component/dist/github-ribbon-wc.min.js" defer></script> 
 
 
 
