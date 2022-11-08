@@ -1,10 +1,10 @@
-# Fork-Me.js
+# GitHub-Ribbon-Web-Component
 
 
 <p align="right">
-<a href="https://github.com/MarketingPipeline/Fork-Me.js" class="ui-container"
+<a href="https://github.com/MarketingPipeline/GitHub-Ribbon-Web-Component" class="ui-container"
       ><img
-        class="fork-me"
+        class="fork me"
         style="position: absolute; top: 0; right: 0; border: 0;"
         src="https://camo.githubusercontent.com/52760788cde945287fbb584134c4cbc2bc36f904/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f77686974655f6666666666662e706e67"
         alt="Fork me on GitHub"
@@ -16,11 +16,11 @@
   <br>
   <small> <b><i>Show your support!</i> </b></small>
   <br>
-   <a href="https://github.com/MarketingPipeline/Fork-Me.js">
-    <img title="Star on GitHub" src="https://img.shields.io/github/stars/MarketingPipeline/Fork-Me.js.svg?style=social&label=Star">
+   <a href="https://github.com/MarketingPipeline/GitHub-Ribbon-Web-Component">
+    <img title="Star on GitHub" src="https://img.shields.io/github/stars/MarketingPipeline/GitHub-Ribbon-Web-Component.svg?style=social&label=Star">
   </a>
-  <a href="https://github.com/MarketingPipeline/Fork-Me.js/fork">
-    <img title="Fork on GitHub" src="https://img.shields.io/github/forks/MarketingPipeline/Fork-Me.js.svg?style=social&label=Fork">
+  <a href="https://github.com/MarketingPipeline/GitHub-Ribbon-Web-Component/fork">
+    <img title="Fork on GitHub" src="https://img.shields.io/github/forks/MarketingPipeline/GitHub-Ribbon-Web-Component.svg?style=social&label=Fork">
   </a>
    </p>  
 
@@ -30,23 +30,23 @@ A custom web element to easily add a GitHub Fork Me ribbon to your web pages!
 
 ## Example and usage
 
-You can view a demo of Fork-Me.js in use [here.](https://marketingpipeline.github.io/Fork-Me.js)
+You can view a demo of the Web Component in use [here.](https://marketingpipeline.github.io/GitHub-Ribbon-Web-Component)
 
 
-How to use <b><i>Fork-Me.js</b></i>:
+<b><i>How to use</b></i>:
 
 
 
 ```html
-<fork-me link="https://github.com/MarketingPipeline/Fork-Me.js/"></fork-me>
+<github-ribbon link="https://github.com/MarketingPipeline/GitHub-Ribbon-Web-Component/"></github-ribbon>
 ```
 
 
 
 
-   include this [script](https://github.com/MarketingPipeline/Fork-Me.js/blob/main/fork-me.min.js) at the <b>bottom</b> of your HTML document.
+   include this [script](https://github.com/MarketingPipeline/GitHub-Ribbon-Web-Component/blob/main/dist/github-ribbon-wc.min.js) at the <b>bottom</b> of your HTML document.
          
-    <script src="https://cdn.jsdelivr.net/gh/MarketingPipeline/Fork-Me.js/fork-me.min.js"></script> 
+    <script src="https://cdn.jsdelivr.net/gh/MarketingPipeline/GitHub-Ribbon-Web-Component/dist/github-ribbon-wc.min.js"></script> 
 
 
 
@@ -131,16 +131,16 @@ How to use <b><i>Fork-Me.js</b></i>:
 
 
 
-## Contributing ![GitHub](https://img.shields.io/github/contributors/MarketingPipeline/Fork-Me.js)
+## Contributing ![GitHub](https://img.shields.io/github/contributors/MarketingPipeline/GitHub-Ribbon-Web-Component)
 
 Want to improve this? Create a pull request with detailed changes / improvements! If approved you will be added to the list of contributors of this awesome project!
 
 See also the list of
-[contributors](https://github.com/MarketingPipeline/Markdown-Tag/graphs/contributors) who
+[contributors](https://github.com/MarketingPipeline/GitHub-Ribbon-Web-Component/graphs/contributors) who
 participate in this project.
 
-## License ![GitHub](https://img.shields.io/github/license/MarketingPipeline/Fork-Me.js)
+## License ![GitHub](https://img.shields.io/github/license/MarketingPipeline/GitHub-Ribbon-Web-Component)
 
 This project is licensed under the GPL-3.0 License - see the
-[LICENSE.md](https://github.com/MarketingPipeline/Fork-Me.js/blob/main/LICENSE) file for
+[LICENSE.md](https://github.com/MarketingPipeline/GitHub-Ribbon-Web-Component/blob/main/LICENSE) file for
 details.
