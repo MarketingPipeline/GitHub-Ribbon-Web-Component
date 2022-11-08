@@ -1,4 +1,4 @@
-class fork_me_wrapper extends HTMLElement {
+class github_ribbon extends HTMLElement {
   constructor() {
     super();
 
@@ -271,4 +271,4 @@ class fork_me_wrapper extends HTMLElement {
   }
 }
 
-window.customElements.define("fork-me", fork_me_wrapper);
+window.customElements.define("github-ribbon", github_ribbon);
